@@ -133,10 +133,7 @@ BEGIN
     MENUITEM    "Re&name...\tF2",   IDM_RENAME
     MENUITEM    "Proper&ties...\tAlt+Enter",IDM_ATTRIBS
     MENUITEM    "&Run...",          IDM_RUN
-    MENUITEM    "Start Bash Shell...", IDM_STARTBASHSHELL
 	MENUITEM    "Start Cmd She&ll...", IDM_STARTCMDSHELL
-	MENUITEM    "Start Po&werShell...", IDM_STARTPOWERSHELL
-	MENUITEM    "&Goto Directory...", IDM_GOTODIR
 	END
 END
 
