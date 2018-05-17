@@ -407,16 +407,16 @@ BEGIN
     LTEXT           "File being compressed:", -1, 6, 8, 79, 8
     LTEXT           "filename.xxx", IDD_COMPRESS_FILE, 86, 8, 90, 8
     LTEXT           "Directory:", -1, 6, 20, 39, 8
-    LTEXT           "d:\\aa\\bb\\......\\xx\\yy\\zz\\", IDD_COMPRESS_DIR, 43, 
+    LTEXT           "d:\\aa\\bb\\......\\xx\\yy\\zz\\", IDD_COMPRESS_DIR, 43,
                     20, 150, 8
     LTEXT           "Directories compressed:", -1, 6, 32, 102, 8
     LTEXT           "1,888,888,999", IDD_COMPRESS_TDIRS, 90, 32, 60, 8
     LTEXT           "Files compressed:", -1, 6, 44, 62, 8
     LTEXT           "1,888,888,999", IDD_COMPRESS_TFILES, 74, 44, 58, 8
-    LTEXT           "Total size of files before compression:", -1, 6, 56, 
+    LTEXT           "Total size of files before compression:", -1, 6, 56,
                     124, 8
     LTEXT           "9,999,999,999,999", IDD_COMPRESS_USIZE, 134, 56, 68, 8
-    LTEXT           "Total size of files after compression:", -1, 6, 68, 123, 
+    LTEXT           "Total size of files after compression:", -1, 6, 68, 123,
                     8
     LTEXT           "9,999,999,999,999", IDD_COMPRESS_CSIZE, 134, 69, 68, 8
     LTEXT           "File compression ratio:", -1, 6, 80, 78, 8
@@ -432,7 +432,7 @@ BEGIN
     LTEXT           "File being uncompressed:", -1, 6, 8, 83, 8
     LTEXT           "filename.xxx", IDD_UNCOMPRESS_FILE, 93, 8, 66, 8
     LTEXT           "Directory:", -1, 6, 20, 39, 8
-    LTEXT           "d:\\aa\\bb\\..........\\xx\\yy\\zz\\", 
+    LTEXT           "d:\\aa\\bb\\..........\\xx\\yy\\zz\\",
                     IDD_UNCOMPRESS_DIR, 45, 20, 144, 8
     LTEXT           "Directories uncompressed:", -1, 6, 32, 91, 8
     LTEXT           "1,999,999,999", IDD_UNCOMPRESS_TDIRS, 99, 32, 70, 8
@@ -846,7 +846,7 @@ FONT 8, "MS Shell Dlg"
 BEGIN
     ICON            APPICON, -1, 6, 6, 32, 32
     LTEXT           "Windows File Manager", -1, 36, 6, 200, 8
-    CONTROL         "TO BE SET", IDD_VERTEXT, "static", SS_LEFTNOWORDWRAP | WS_CHILD, 36, 18, 200, 8
+    CONTROL         "Ratsauce build (x64)", IDD_VERTEXT, "static", SS_LEFTNOWORDWRAP | WS_CHILD, 36, 18, 200, 8
     LTEXT           "Copyright (c) Microsoft Corporation. All rights reserved.", -1, 36, 30, 200, 8
     LTEXT           "Licensed under the MIT License.", -1, 36, 42, 200, 8
     LTEXT           "https://github.com/Microsoft/winfile", -1, 36, 54, 200, 8
