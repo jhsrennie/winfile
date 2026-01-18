@@ -1989,12 +1989,14 @@ PutAttributes(
       cch++;
    }
 
+/* The archive attribute isn't much use these days so for the sake of
+   tidyness don't display it
    if (dwAttribute & ATTR_ARCHIVE)
    {
       *pszStr++ = szAttr[3];
       cch++;
    }
-
+*/
    if (dwAttribute & ATTR_COMPRESSED)
    {
       *pszStr++ = szAttr[4];
