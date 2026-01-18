@@ -1,3 +1,13 @@
+# Windows File Manager 
+
+This is my fork of the port of the Windows File Manager to current versions of Windows. I have forked this because I felt the port was getting too complex and the big advantage of File Manager is its simplicity and speed.
+
+My fork can no longer be easily synced with the original repository, but since the original repository has now been marked read only this doesn't matter as there won't be any more changes.
+
+What follows is the original readme.
+
+---
+
 # ![icon](winfile.png) Windows File Manager (WinFile)
 
 The Windows File Manager lives again and runs as a native x86 and x64 desktop app
